@@ -13,16 +13,16 @@ const AddExpenseForm = () => {
                         id="name">
                     </input>
                 </div>
-            </div>
 
-            <div className="col-sm">
-                <label for="cost">Cost</label>
-                <input 
-                    type="text" 
-                    required="required" 
-                    className="form-control" 
-                    id="cost">
-                </input>
+                <div className="col-sm">
+                    <label for="cost">Cost</label>
+                    <input 
+                        type="text" 
+                        required="required" 
+                        className="form-control" 
+                        id="cost">
+                    </input>
+            </div>
 
             <div className="col-sm">
                 <button type="submit" className="btn btn-primary">Save</button>
